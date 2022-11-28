@@ -1,0 +1,130 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #1D3557;
+}
+
+#hero{
+    height: 343px;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+h1{
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 0;
+    background: #1D3557;
+    padding: 3px 12px 5px 12px;
+    border-radius: 10px;
+}
+
+h2{
+    width: 412px;
+    font-size: 18.72px;
+    line-height: 22px;
+    padding: 5px 29px 8px 28px;
+    margin: 16px;
+    background: #457B9D;
+    border-radius: 10px;
+}
+
+#activities{
+    margin: 0px;
+    background: #F1FAEE;
+}
+
+#intro{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 39px 0 54px 0;
+    
+}
+
+#active{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.l-titile{
+    width: 183px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 22.6px auto 17px auto;
+}
+
+.l-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 auto 39px auto;
+}
+
+#first{
+    width: 198px;
+}
+
+img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.width{
+}
+
+#guide{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 49px;
+    margin-bottom: 0px;
+}
+
+#second{
+    width: 189px;
+    font-style: italic;
+    margin: 14px 11px 26px 7px;
+}
+
+#third{
+    font-weight: 700;
+}
+
+#card{
+    width: 400px;
+    display: flex;
+    margin: 50px auto 50px auto;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+#profile{
+    width: 180px;
+    border-radius: 10px;
+    margin: 23px 0px 22.3px 13px;
+}
